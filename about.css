@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(32, 32, 32);
+}
+
+h2{
+    text-align-last: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(211, 223, 196);
+}
+
+h1{
+    text-align-last: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: honeydew;
+    
+}
+
+img{
+    max-width: 25%;
+    max-height: 50%;
+    margin-left: 15%;
+    margin-right: 7%;
+    float: left;
+
+}
+h4{
+    margin: 1%;
+    margin-left: 35%;
+    color: lawngreen;
+    font-family: cursive;
+    font-size: 20px;
+
+}
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+h5{
+    color: lightgoldenrodyellow;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 25%;
+}
+.whoami{
+    font-size: 2.5vh;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    color: rgb(57, 155, 107);
+}
+.answer {
+    font-size: 3vh;
+    font-weight: bolder;
+    font-family: "Poppins";
+    margin: 0;
+    color: lavender;;
+    margin-right: 22px;
+}
+.text {
+    font-size: 2vh;
+    font-family: "Poppins";
+    color: #a1a1a1;
+    font-size: 15px;
+}
+.about-image {
+    max-width: 500%;
+    max-height: 50%;
+    margin-left: 5%;
+    margin-right: 7%;
+    margin-bottom: 25%;
+    
+}
