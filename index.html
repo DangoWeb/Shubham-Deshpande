@@ -19,6 +19,19 @@
 		<div class="bottomleft">
 		  <p>©Shubham, 2021</p>
 		</div>
+		<script>
+  			window.watsonAssistantChatOptions = {
+      integrationID: "1240b0de-46ce-4f4e-acd0-70360464a528", // The ID of this integration.
+      region: "us-south", // The region your integration is hosted in.
+      serviceInstanceID: "da826045-ae2c-42fa-9035-c0c0ce8a3771", // The ID of your service instance.
+      onLoad: function(instance) { instance.render(); }
+    };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+    document.head.appendChild(t);
+  });
+		</script>
 	  </div>
 
 </body>
