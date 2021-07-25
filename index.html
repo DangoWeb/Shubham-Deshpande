@@ -6,11 +6,36 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Shazze</title>
 	<link rel="stylesheet" href="/css/style.css">
+	
 	<link rel="icon" type="image/png" href="https://www.hawksearch.com/assets/45/44/45444989-b3d7-4fca-88ea-8a6c143c0285/developer-role-glow.png">
 </head>
 <body>
-	<div class="bgimg">
+	<script src="https://apis.google.com/js/platform.js" async defer></script>
+	<script src="/js/main.js"></script>
+	<meta name="google-signin-client_id" content="632033250661-op57ib03uc866m0ug8js9a78pitrgfgu.apps.googleusercontent.com">
+  <div id="my-signin2"></div>
+  <script>
+    function onSuccess(googleUser) {
+      console.log('Logged in as: ' + googleUser.getBasicProfile().getName());
+    }
+    function onFailure(error) {
+      console.log(error);
+    }
+    function renderButton() {
+      gapi.signin2.render('my-signin2', {
+        'scope': 'profile email',
+        'width': 240,
+        'height': 50,
+        'longtitle': true,
+        'theme': 'dark',
+        'onsuccess': onSuccess,
+        'onfailure': onFailure
+      });
+    }
+  </script>
 
+  <script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
+	<div class="bgimg">
 		<div class="middle">
 		  <h1>COMING SOON</h1>
 		  <hr>
@@ -18,6 +43,7 @@
 		</div>
 		<div class="bottomleft">
 		  <p>©Shubham, 2021</p>
+		  <div class="g-signin2" data-onsuccess="onSignIn"></div>
 		</div>
 		<script>
   			window.watsonAssistantChatOptions = {
