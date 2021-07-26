@@ -4,12 +4,12 @@ body, html {
 }
 
 .bgimg {
-  background-image: url('https://media.istockphoto.com/photos/cement-floor-and-black-wall-backgrounds-empty-room-interior-use-for-picture-id1226232663?b=1&k=6&m=1226232663&s=170667a&w=0&h=6yI5gQBaTS8K75aPJzyfCLI1MFu-__M4BU2zAe5LxPw=');
+  background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHChIGBwcGBgYHDQ0PBwYHBg8IDQcNFBEWFhURFRUYHCggGBolGxUVITEhJSkrLi4uFx8zODMsNygtLisBCgoKDQ0LFQUNGisZExkrLSsrKysrKysrKysrLSsrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAM0A9gMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAABAAQF/8QAFRABAQAAAAAAAAAAAAAAAAAAAAH/xAAYAQADAQEAAAAAAAAAAAAAAAAAAgMBBv/EABURAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIRAxEAPwDrpJ1rk6SCE6iCxOogglRBYnUkmEpIITqSQJSYDGJ1EEJ1EFhKiCxOogglRBYnUQQSpJAjAkl3a0kEJ1EFidRBBKiCxOpJMJSQQnUkgSkwGMTqIITqILCVEFidRBBKiCxOogglSSBGBJLu1pIITqILE6iCCVEFidSSYSkghOpJAlJgMYnUQQnUQWEqILE6iCCVEFidRBBKkkCMCSXdrSQQnUQWJ1EEEqILE6kkwlJBCdSSBKTAYxOoghOogsJUQWJ1EEEqILE6iCCVJIEYEku7WkghOogsTqIIJUQWJ1RJMJSQQnUkgSkwGMTqIITqILCVEFidRBBKiCxOogglSSBGBJLu1pIITqILE6iCCVEFidSSYSkghOpJAlJgMYnUQQnUQWEqILE6iCCVEFidRBBKkkCMCSXdrSQQnUQWJ1EEEqILE6kkwlJBCdSSBKTAYxOoghOogsJUQWJ1EEEqILE6iCCVJIEYEku7WkghOogsTqIIJUQWJ1JJhKSCE6kkCUmAxidRBCdRBYSogsTqIIJUQWJ1EEEqSQIwJJd2tJBCdRBYnUQQSogsTqSTCUkEJ1JIEpMBjE6iCE6iCwlRBYnUQQSogsTqIIJUkgRgSS7taSCE6iCxOogglRBYnUkmEpIITqSQJSYDGJ1EEJ1EFhKiCxOogglRBYnUQQSpJAjAkl3a0kEJ1EFidRBBKiCxOqJJhKSCE6kkCUmAxidRBCdRBYSogsTqIIJUQWJ1EEEqSQIwJJd2tJBCdRBYnUQQSogsTqSTCUkEJ1JIEpMBjE6iCE6iCwlRBYnUQQSogsTqIIJUkgRgSS7taSCE6iCxOogglRBYnUkmEpIITqSQJSYDGJ1EEJ1EFhKiCxOogglRBYnUQQSpJAj/2Q==');
   height: 100%;
   background-position: center;
   background-size: cover;
   position: relative;
-  color: white;
+  color: rgb(78, 62, 62);
   font-family: "Courier New", Courier, monospace;
   font-size: 25px;
 }
@@ -41,26 +41,28 @@ hr {
 }
 
 .home{
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   position: absolute;
   left: 42px;
-  top: 55px;
+  top: 100px;
+  color: black;
 }
 
 .home:hover{
-  color: rgb(134, 163, 27);
+  color: rgb(255, 255, 255);
   transition: 0.4s;
 }
 
 .about{
   font-family: 'Times New Roman', Times, serif;
   position: absolute;
-  left: 172px;
-  top: 55px;
+  right: 202px;
+  top: 100px;
+  color: black; 
 
 }
 .about:hover{
-  color: rgb(134, 163, 27);
+  color: white;
   transition: 0.4s;
 }
 
@@ -109,29 +111,29 @@ a{
 }
 
 .button{
-  background-color: transparent;
-  font-family: 'Times New Roman', Times, serif;
-  color: beige;
-  font-size: 25px;
-  left: 282px;
+  right: 22px;
   position: absolute;
-  top: 52px;
-  border: black;
-}
-body > button {
-  background: #428BCA;
+  top: 65px;
+  background-color: black;
   color: #fff;
   font-family: Sans-serif;
   font-size: 20px;
-  height: 60px;
-  width: 150px;
-  line-height: 60px;
+  height: 50px;
+  width: 100px;
   margin: 25px 25px;
   text-align: center;
   border: 0;
   transition: all 0.3s ease 0s;
+
+}
+button:hover {
+  background-color: white;
+  color: black; 
 }
 
-button:hover {
-  border-radius: 10px;
+.logo{
+  float: right;
+  position: absolute;
+  right: 600px;
+  top: 15px;
 }
