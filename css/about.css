@@ -1,0 +1,30 @@
+body, html{
+    background-color: rgb(54, 47, 47);
+}
+
+h2{
+    color: bisque;
+    position: relative;
+    left: 725px;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h6{
+    color: white;
+}
+
+h1{
+    color: white;
+}
+
+
+.answer{
+    color: white;
+    font-size: 30px;
+}
+
+.text{
+    color: white;
+    font-size: 20px;
+}
