@@ -5,9 +5,10 @@ body, html{
 h2{
     color: bisque;
     position: relative;
-    left: 725px;
     font-size: 35px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    
 }
 
 h6{
